@@ -58,3 +58,24 @@ Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebAp
 Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.csprojResolveAssemblyReference.cache
 Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.dll
 Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.pdb
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll.config
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.pdb
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.xml
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.dll
+C:\Users\mloeff\Documents\GitHub\PI-Web-API-White-Paper\PI-Web-API-White-Paper\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.pdb
