@@ -1,6 +1,0 @@
-C:\Development projects\PIWebAPI2015R2Demo\PIWebAPI2015R2Demo\bin\PIWebAPI2015R2Demo.dll.config
-C:\Development projects\PIWebAPI2015R2Demo\PIWebAPI2015R2Demo\bin\PIWebAPI2015R2Demo.dll
-C:\Development projects\PIWebAPI2015R2Demo\PIWebAPI2015R2Demo\bin\PIWebAPI2015R2Demo.pdb
-C:\Development projects\PIWebAPI2015R2Demo\PIWebAPI2015R2Demo\obj\Debug\PIWebAPI2015R2Demo.csprojResolveAssemblyReference.cache
-C:\Development projects\PIWebAPI2015R2Demo\PIWebAPI2015R2Demo\obj\Debug\PIWebAPI2015R2Demo.dll
-C:\Development projects\PIWebAPI2015R2Demo\PIWebAPI2015R2Demo\obj\Debug\PIWebAPI2015R2Demo.pdb
