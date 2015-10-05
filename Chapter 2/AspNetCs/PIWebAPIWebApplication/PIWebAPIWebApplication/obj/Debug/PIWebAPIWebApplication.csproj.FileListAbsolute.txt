@@ -1,0 +1,60 @@
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll.config
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.pdb
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.xml
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.csprojResolveAssemblyReference.cache
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.dll
+C:\Development projects\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.pdb
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll.config
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.pdb
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.xml
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.csprojResolveAssemblyReference.cache
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.dll
+C:\Development projects\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.pdb
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll.config
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\PIWebAPIWebApplication.pdb
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\Newtonsoft.Json.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Razor.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Deployment.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Webpages.Razor.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Helpers.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\bin\System.Web.Mvc.xml
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.csprojResolveAssemblyReference.cache
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.dll
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 2\AspNetCs\PIWebAPIWebApplication\PIWebAPIWebApplication\obj\Debug\PIWebAPIWebApplication.pdb

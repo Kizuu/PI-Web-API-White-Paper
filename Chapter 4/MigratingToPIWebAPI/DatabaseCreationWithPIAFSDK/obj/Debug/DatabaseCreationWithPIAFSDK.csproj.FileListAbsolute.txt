@@ -1,0 +1,7 @@
+C:\Development projects\DatabaseCreation\DatabaseCreationWithPIAFSDK\bin\Debug\DatabaseCreationWithPIAFSDK.exe.config
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 3\MigratinToPIWebAPI\DatabaseCreationWithPIAFSDK\bin\Debug\DatabaseCreationWithPIAFSDK.exe.config
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 3\MigratinToPIWebAPI\DatabaseCreationWithPIAFSDK\bin\Debug\DatabaseCreationWithPIAFSDK.exe
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 3\MigratinToPIWebAPI\DatabaseCreationWithPIAFSDK\bin\Debug\DatabaseCreationWithPIAFSDK.pdb
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 3\MigratinToPIWebAPI\DatabaseCreationWithPIAFSDK\obj\Debug\DatabaseCreationWithPIAFSDK.csprojResolveAssemblyReference.cache
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 3\MigratinToPIWebAPI\DatabaseCreationWithPIAFSDK\obj\Debug\DatabaseCreationWithPIAFSDK.exe
+Z:\Workshops-Courses\Developing with PI Web API\Chapter 3\MigratinToPIWebAPI\DatabaseCreationWithPIAFSDK\obj\Debug\DatabaseCreationWithPIAFSDK.pdb

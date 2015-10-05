@@ -1,0 +1,3458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OSIsoft.AF.xsd" SchemaVersion="2.0" SoftwareVersion="2.6.1.6238" ExportMode="AllReferences, NoUniqueID, SimplifiedConfigStrings" PISystem="MARC-PI2014" Database="AFPartnerCourseWeather" Description="" Created="2014-11-24T10:44:54.1900563Z" id="2ad25d12-ccdd-438c-b4ba-d32facf546d2" ParentKey="9772dbed-ce93-49e0-8513-114f4f3e856e" ExportedObject="AFPartnerCourseWeather" ExportedType="AFDatabase" Identity="Database" PIPersist="157 {9895150E-085D-4fcb-A16D-5EF5D2527196} 2\{9772dbed-ce93-49e0-8513-114f4f3e856e}\{2ad25d12-ccdd-438c-b4ba-d32facf546d2}*MARC-PI2014\AFPartnerCourseWeather">
+  <UOMDatabase>
+    <Name>UOMDatabase</Name>
+    <UOMClass>
+      <Name>Acceleration</Name>
+      <CanonicalUOM>meter per square second</CanonicalUOM>
+      <CanonicalAbbr>m/s2</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Plane Angle</Name>
+      <CanonicalUOM>radian</CanonicalUOM>
+      <CanonicalAbbr>rad</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Time</Name>
+      <CanonicalUOM>second</CanonicalUOM>
+      <CanonicalAbbr>s</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Angular Velocity</Name>
+      <CanonicalUOM>radian per second</CanonicalUOM>
+      <CanonicalAbbr>rad/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Plane Angle</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Length</Name>
+      <CanonicalUOM>meter</CanonicalUOM>
+      <CanonicalAbbr>m</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Area</Name>
+      <CanonicalUOM>square meter</CanonicalUOM>
+      <CanonicalAbbr>m2</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Computer</Name>
+      <CanonicalUOM>Byte</CanonicalUOM>
+      <CanonicalAbbr>B</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Electric Current</Name>
+      <CanonicalUOM>ampere</CanonicalUOM>
+      <CanonicalAbbr>A</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Mass</Name>
+      <CanonicalUOM>kilogram</CanonicalUOM>
+      <CanonicalAbbr>kg</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Conductance</Name>
+      <Description>Conductance</Description>
+      <CanonicalUOM>Siemens</CanonicalUOM>
+      <CanonicalAbbr>Siemens</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Electric Current</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Conductivity</Name>
+      <Description>Conductivity</Description>
+      <CanonicalUOM>Siemens/m</CanonicalUOM>
+      <CanonicalAbbr>Siemens/m</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Electric Current</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Currency</Name>
+      <Description>Currency</Description>
+      <CanonicalUOM>Euro</CanonicalUOM>
+      <CanonicalAbbr>EUR</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Data Rate</Name>
+      <Description>Rate of Data</Description>
+      <CanonicalUOM>bits per second</CanonicalUOM>
+      <CanonicalAbbr>bits/sec</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Data Volume</Name>
+      <Description>Data Volume</Description>
+      <CanonicalUOM>bits</CanonicalUOM>
+      <CanonicalAbbr>bits</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Decibel</Name>
+      <CanonicalUOM>dB</CanonicalUOM>
+      <CanonicalAbbr>dB</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Density</Name>
+      <CanonicalUOM>kilogram per cubic meter</CanonicalUOM>
+      <CanonicalAbbr>kg/m3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Dynamic Viscosity</Name>
+      <CanonicalUOM>pascal second</CanonicalUOM>
+      <CanonicalAbbr>Pa*s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Electric Charge</Name>
+      <CanonicalUOM>coulomb</CanonicalUOM>
+      <CanonicalAbbr>C</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Electric Current</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Electric Potential</Name>
+      <CanonicalUOM>volt</CanonicalUOM>
+      <CanonicalAbbr>V</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Electric Current</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Energy</Name>
+      <CanonicalUOM>joule</CanonicalUOM>
+      <CanonicalAbbr>J</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Energy consumption</Name>
+      <CanonicalUOM>kWh per ton</CanonicalUOM>
+      <CanonicalAbbr>kWh/t</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Energy Consumption rate per Volume</Name>
+      <CanonicalUOM>kW/gal/h</CanonicalUOM>
+      <CanonicalAbbr>kW/gal/h</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Energy Cost</Name>
+      <Description>Energy Cost</Description>
+      <CanonicalUOM>Dollars per KWh</CanonicalUOM>
+      <CanonicalAbbr>$/KWh</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Energy per time</Name>
+      <CanonicalUOM>Btu per time</CanonicalUOM>
+      <CanonicalAbbr>Btu/min</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Energy Rate</Name>
+      <Description>Rate of energy transfer</Description>
+      <CanonicalUOM>BTU per hour</CanonicalUOM>
+      <CanonicalAbbr>BTU/Hr</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>FOE Mass</Name>
+      <CanonicalUOM>fuel oil equivalent kilogram</CanonicalUOM>
+      <CanonicalAbbr>FOE kg</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>FOE Volume</Name>
+      <CanonicalUOM>fuel oil equivalent cubic meter</CanonicalUOM>
+      <CanonicalAbbr>FOE m3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Force</Name>
+      <CanonicalUOM>newton</CanonicalUOM>
+      <CanonicalAbbr>N</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Frequency</Name>
+      <CanonicalUOM>hertz</CanonicalUOM>
+      <CanonicalAbbr>Hz</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Temperature (Delta)</Name>
+      <CanonicalUOM>delta kelvin</CanonicalUOM>
+      <CanonicalAbbr>delta K</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Heat Capacity</Name>
+      <Description>Heat Capacity</Description>
+      <CanonicalUOM>Calorie per gram degree C</CanonicalUOM>
+      <CanonicalAbbr>Cal/g/Deg C</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Temperature (Delta)</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Heat Transfer</Name>
+      <Description>Heat transfer per area per time per temperature delta</Description>
+      <CanonicalUOM>Btu/h/ft2/F</CanonicalUOM>
+      <CanonicalAbbr>Btu/h/ft2/F</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Temperature (Delta)</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Temperature</Name>
+      <CanonicalUOM>kelvin</CanonicalUOM>
+      <CanonicalAbbr>K</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Heat Transfer Coefficient</Name>
+      <Description>Heat Transfer Coefficient</Description>
+      <CanonicalUOM>BTU/Hr/Ft2/DegF</CanonicalUOM>
+      <CanonicalAbbr>BTU/Hr/Ft2/DegF</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Temperature</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Temperature (Delta)</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>HeatTransfer</Name>
+      <CanonicalUOM>W/m2/K</CanonicalUOM>
+      <CanonicalAbbr>W/m2/K</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>KPI Electric Current</Name>
+      <CanonicalUOM>ampere per ton of feed</CanonicalUOM>
+      <CanonicalAbbr>A/tf</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>KPI Volume Flow Rate</Name>
+      <CanonicalUOM>US gallon per minute per ton of feed</CanonicalUOM>
+      <CanonicalAbbr>US Gal/min/tf</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>KPI Volume Flow Rate (Standard)</Name>
+      <CanonicalUOM>thousand standard cubic foot per hour per ton of Feed</CanonicalUOM>
+      <CanonicalAbbr>k sft3/h/tf</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Luminous Intensity</Name>
+      <CanonicalUOM>candela</CanonicalUOM>
+      <CanonicalAbbr>cd</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Mass Flow Rate</Name>
+      <CanonicalUOM>kilogram per second</CanonicalUOM>
+      <CanonicalAbbr>kg/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Memory</Name>
+      <Description>Computer Memory</Description>
+      <CanonicalUOM>Megabytes</CanonicalUOM>
+      <CanonicalAbbr>MB</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Moles</Name>
+      <CanonicalUOM>mole</CanonicalUOM>
+      <CanonicalAbbr>mol</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Molar Flow Rate</Name>
+      <CanonicalUOM>mole per second</CanonicalUOM>
+      <CanonicalAbbr>mol/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Moles</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Molar Volume (Normal)</Name>
+      <CanonicalUOM>normal cubic meter per gram mole</CanonicalUOM>
+      <CanonicalAbbr>Nm3/gmol</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Moles</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Molar Volume (Standard)</Name>
+      <CanonicalUOM>standard cubic meter per gram mole</CanonicalUOM>
+      <CanonicalAbbr>sm3/gmol</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Moles</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Molecular Weight</Name>
+      <CanonicalUOM>kilogram per mole</CanonicalUOM>
+      <CanonicalAbbr>kg/mol</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Moles</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Money</Name>
+      <Description>Money</Description>
+      <CanonicalUOM>Dollar</CanonicalUOM>
+      <CanonicalAbbr>$</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Natural Gas Cost</Name>
+      <Description>Natural Gas Cost</Description>
+      <CanonicalUOM>Dollars per Million Btu</CanonicalUOM>
+      <CanonicalAbbr>$/MMBtu</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Number</Name>
+      <CanonicalUOM>Number</CanonicalUOM>
+      <CanonicalAbbr>Number</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Oil Fuel Cost</Name>
+      <Description>Oil Fuel Cost</Description>
+      <CanonicalUOM>Dollars per cubic meter</CanonicalUOM>
+      <CanonicalAbbr>$/m3</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Power</Name>
+      <CanonicalUOM>watt</CanonicalUOM>
+      <CanonicalAbbr>W</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Pressure</Name>
+      <CanonicalUOM>pascal</CanonicalUOM>
+      <CanonicalAbbr>Pa</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Pressure (Gauge)</Name>
+      <CanonicalUOM>rel. pascal</CanonicalUOM>
+      <CanonicalAbbr>Pa(g)</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Pressure Drop per Length</Name>
+      <CanonicalUOM>Pound per Square Inch per 100 feet</CanonicalUOM>
+      <CanonicalAbbr>psi/100 ft</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Quantity</Name>
+      <CanonicalUOM>count</CanonicalUOM>
+      <CanonicalAbbr>count</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Ratio</Name>
+      <CanonicalUOM>percent</CanonicalUOM>
+      <CanonicalAbbr>%</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Specific Energy</Name>
+      <CanonicalUOM>joule per kilogram</CanonicalUOM>
+      <CanonicalAbbr>J/kg</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Specific Energy-Volume</Name>
+      <CanonicalUOM>Million Btu per standard cubic volume</CanonicalUOM>
+      <CanonicalAbbr>MMBtu/SCF</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Specific Gravity</Name>
+      <CanonicalUOM>specific gravity</CanonicalUOM>
+      <CanonicalAbbr>SG</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Specific Power</Name>
+      <CanonicalUOM>Ton per kW</CanonicalUOM>
+      <CanonicalAbbr>t/kW</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Specific Volume</Name>
+      <Description>Specific Volume</Description>
+      <CanonicalUOM>Gal/lb</CanonicalUOM>
+      <CanonicalAbbr>Gal/lb</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Speed</Name>
+      <CanonicalUOM>meter per second</CanonicalUOM>
+      <CanonicalAbbr>m/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Torque</Name>
+      <CanonicalUOM>Torque</CanonicalUOM>
+      <CanonicalAbbr>Torque</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Turbidity</Name>
+      <CanonicalUOM>NTU</CanonicalUOM>
+      <CanonicalAbbr>NTU</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Viscosity</Name>
+      <CanonicalUOM>poiseuille</CanonicalUOM>
+      <CanonicalAbbr>pois</CanonicalAbbr>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume</Name>
+      <CanonicalUOM>cubic meter</CanonicalUOM>
+      <CanonicalAbbr>m3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume (Actual)</Name>
+      <CanonicalUOM>actual cubic meter</CanonicalUOM>
+      <CanonicalAbbr>Am3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume (Normal)</Name>
+      <CanonicalUOM>normal cubic meter</CanonicalUOM>
+      <CanonicalAbbr>Nm3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume (Standard)</Name>
+      <CanonicalUOM>standard cubic meter</CanonicalUOM>
+      <CanonicalAbbr>sm3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume Flow Rate</Name>
+      <CanonicalUOM>cubic meter per second</CanonicalUOM>
+      <CanonicalAbbr>m3/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume Flow Rate (Actual)</Name>
+      <CanonicalUOM>actual cubic meter per second</CanonicalUOM>
+      <CanonicalAbbr>Am3/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume Flow Rate (Normal)</Name>
+      <CanonicalUOM>normal cubic meter per second</CanonicalUOM>
+      <CanonicalAbbr>Nm3/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volume Flow Rate (Standard)</Name>
+      <CanonicalUOM>standard cubic meter per second</CanonicalUOM>
+      <CanonicalAbbr>sm3/s</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>3</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volumetric Energy</Name>
+      <CanonicalUOM>joule per cubic meter</CanonicalUOM>
+      <CanonicalAbbr>J/m3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOMClass>
+      <Name>Volumetric Energy (Standard)</Name>
+      <CanonicalUOM>joule per standard cubic meter</CanonicalUOM>
+      <CanonicalAbbr>J/sm3</CanonicalAbbr>
+      <UOMBaseClass>
+        <Name>Length</Name>
+        <BasePower>-1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Mass</Name>
+        <BasePower>1</BasePower>
+      </UOMBaseClass>
+      <UOMBaseClass>
+        <Name>Time</Name>
+        <BasePower>-2</BasePower>
+      </UOMBaseClass>
+    </UOMClass>
+    <UOM>
+      <Name>meter per square second</Name>
+      <Abbreviation>m/s2</Abbreviation>
+      <Class>Acceleration</Class>
+    </UOM>
+    <UOM>
+      <Name>milimeter per square second</Name>
+      <Abbreviation>mm/s2</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>meter per square second</RefUOM>
+      <Class>Acceleration</Class>
+    </UOM>
+    <UOM>
+      <Name>radian</Name>
+      <Abbreviation>rad</Abbreviation>
+      <Class>Plane Angle</Class>
+    </UOM>
+    <UOM>
+      <Name>degree</Name>
+      <Abbreviation>°</Abbreviation>
+      <RefFactor>0.0174532925199433</RefFactor>
+      <RefUOM>radian</RefUOM>
+      <Class>Plane Angle</Class>
+    </UOM>
+    <UOM>
+      <Name>revolution</Name>
+      <Abbreviation>r</Abbreviation>
+      <RefFactor>6.28318530717959</RefFactor>
+      <RefUOM>radian</RefUOM>
+      <Class>Plane Angle</Class>
+    </UOM>
+    <UOM>
+      <Name>second</Name>
+      <Abbreviation>s</Abbreviation>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>minute</Name>
+      <Abbreviation>min</Abbreviation>
+      <RefFactor>60</RefFactor>
+      <RefUOM>second</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>hour</Name>
+      <Abbreviation>h</Abbreviation>
+      <RefFactor>60</RefFactor>
+      <RefUOM>minute</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>day</Name>
+      <Abbreviation>d</Abbreviation>
+      <RefFactor>24</RefFactor>
+      <RefUOM>hour</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>MicroSeconds</Name>
+      <Abbreviation>MicroSec</Abbreviation>
+      <Description>Micro Seconds</Description>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>second</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>miliseconds</Name>
+      <Abbreviation>ms</Abbreviation>
+      <Description>miliseconds</Description>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>second</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>month</Name>
+      <Abbreviation>month</Abbreviation>
+      <RefFactor>30.4166666666667</RefFactor>
+      <RefUOM>day</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>week</Name>
+      <Abbreviation>week</Abbreviation>
+      <RefFactor>7</RefFactor>
+      <RefUOM>day</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>year</Name>
+      <Abbreviation>yr</Abbreviation>
+      <RefFactor>365</RefFactor>
+      <RefUOM>day</RefUOM>
+      <Class>Time</Class>
+    </UOM>
+    <UOM>
+      <Name>radian per second</Name>
+      <Abbreviation>rad/s</Abbreviation>
+      <Class>Angular Velocity</Class>
+    </UOM>
+    <UOM>
+      <Name>revolution per minute</Name>
+      <Abbreviation>rpm</Abbreviation>
+      <RefFactor>0.10471975511966</RefFactor>
+      <RefUOM>radian per second</RefUOM>
+      <Class>Angular Velocity</Class>
+    </UOM>
+    <UOM>
+      <Name>meter</Name>
+      <Abbreviation>m</Abbreviation>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>inch</Name>
+      <Abbreviation>in</Abbreviation>
+      <RefFactor>0.0254</RefFactor>
+      <RefUOM>meter</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>foot</Name>
+      <Abbreviation>ft</Abbreviation>
+      <RefFactor>12</RefFactor>
+      <RefUOM>inch</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>Ales</Name>
+      <Abbreviation>afeet</Abbreviation>
+      <RefFactor>1.1</RefFactor>
+      <RefUOM>foot</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>centimeter</Name>
+      <Abbreviation>cm</Abbreviation>
+      <RefFactor>0.01</RefFactor>
+      <RefUOM>meter</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>furlong</Name>
+      <Abbreviation>fl</Abbreviation>
+      <RefFactor>660</RefFactor>
+      <RefUOM>foot</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>International nautical mile</Name>
+      <Abbreviation>nmi</Abbreviation>
+      <RefFactor>1852</RefFactor>
+      <RefUOM>meter</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>kilometer</Name>
+      <Abbreviation>km</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>meter</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>mile</Name>
+      <Abbreviation>mi</Abbreviation>
+      <RefFactor>63360</RefFactor>
+      <RefUOM>inch</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>millimeter</Name>
+      <Abbreviation>mm</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>meter</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>sixteenth of an inch</Name>
+      <Abbreviation>sxi</Abbreviation>
+      <RefFactor>0.0625</RefFactor>
+      <RefUOM>inch</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>yard</Name>
+      <Abbreviation>yd</Abbreviation>
+      <RefFactor>36</RefFactor>
+      <RefUOM>inch</RefUOM>
+      <Class>Length</Class>
+    </UOM>
+    <UOM>
+      <Name>square meter</Name>
+      <Abbreviation>m2</Abbreviation>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square inch</Name>
+      <Abbreviation>in2</Abbreviation>
+      <RefFactor>0.00064516</RefFactor>
+      <RefUOM>square meter</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square foot</Name>
+      <Abbreviation>ft2</Abbreviation>
+      <RefFactor>144</RefFactor>
+      <RefUOM>square inch</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>acre</Name>
+      <Abbreviation>acre</Abbreviation>
+      <RefFactor>43560</RefFactor>
+      <RefUOM>square foot</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>hectare</Name>
+      <Abbreviation>ha</Abbreviation>
+      <RefFactor>10000</RefFactor>
+      <RefUOM>square meter</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square centimeter</Name>
+      <Abbreviation>cm2</Abbreviation>
+      <RefFactor>0.0001</RefFactor>
+      <RefUOM>square meter</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square kilometer</Name>
+      <Abbreviation>km2</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>square meter</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square mile</Name>
+      <Abbreviation>mi2</Abbreviation>
+      <RefFactor>27878400</RefFactor>
+      <RefUOM>square foot</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square millimeter</Name>
+      <Abbreviation>mm2</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>square meter</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>square yard</Name>
+      <Abbreviation>yd2</Abbreviation>
+      <RefFactor>9</RefFactor>
+      <RefUOM>square foot</RefUOM>
+      <Class>Area</Class>
+    </UOM>
+    <UOM>
+      <Name>Byte</Name>
+      <Abbreviation>B</Abbreviation>
+      <Class>Computer</Class>
+    </UOM>
+    <UOM>
+      <Name>Bit</Name>
+      <Abbreviation>bit</Abbreviation>
+      <RefFactor>0.125</RefFactor>
+      <RefUOM>Byte</RefUOM>
+      <Class>Computer</Class>
+    </UOM>
+    <UOM>
+      <Name>MegaByte</Name>
+      <Abbreviation>MByte</Abbreviation>
+      <RefFactor>1024</RefFactor>
+      <RefUOM>Byte</RefUOM>
+      <Class>Computer</Class>
+    </UOM>
+    <UOM>
+      <Name>GigaByte</Name>
+      <Abbreviation>GByte</Abbreviation>
+      <RefFactor>1024</RefFactor>
+      <RefUOM>MegaByte</RefUOM>
+      <Class>Computer</Class>
+    </UOM>
+    <UOM>
+      <Name>ampere</Name>
+      <Abbreviation>A</Abbreviation>
+      <Class>Electric Current</Class>
+    </UOM>
+    <UOM>
+      <Name>kiloampere</Name>
+      <Abbreviation>kA</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>ampere</RefUOM>
+      <Class>Electric Current</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram</Name>
+      <Abbreviation>kg</Abbreviation>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>Bag</Name>
+      <Abbreviation>Bag</Abbreviation>
+      <RefFactor>5</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>pound</Name>
+      <Abbreviation>lb</Abbreviation>
+      <RefFactor>0.45359237</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>Bushel</Name>
+      <Abbreviation>Bushel</Abbreviation>
+      <RefFactor>56</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>gram</Name>
+      <Abbreviation>g</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>laurent</Name>
+      <Abbreviation>lt</Abbreviation>
+      <RefFactor>75</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>Load</Name>
+      <Abbreviation>ld</Abbreviation>
+      <RefFactor>5</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>long ton</Name>
+      <Abbreviation>lton</Abbreviation>
+      <RefFactor>2240</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>milligram</Name>
+      <Abbreviation>mg</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>million pound</Name>
+      <Abbreviation>MM lb</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>ounce</Name>
+      <Abbreviation>oz</Abbreviation>
+      <RefFactor>0.0625</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>short ton</Name>
+      <Abbreviation>ston</Abbreviation>
+      <RefFactor>2000</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>Shovel</Name>
+      <Abbreviation>Shovel</Abbreviation>
+      <RefFactor>500</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand pound</Name>
+      <Abbreviation>klb</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>ton</Name>
+      <Abbreviation>ton</Abbreviation>
+      <RefFactor>2000</RefFactor>
+      <RefUOM>pound</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>tonne</Name>
+      <Abbreviation>t</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>kilogram</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>Tons CO2 Equivalent</Name>
+      <Abbreviation>Ton CO2 Equiv.</Abbreviation>
+      <RefUOM>ton</RefUOM>
+      <Class>Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>Siemens</Name>
+      <Abbreviation>Siemens</Abbreviation>
+      <Class>Conductance</Class>
+    </UOM>
+    <UOM>
+      <Name>Siemens/m</Name>
+      <Abbreviation>Siemens/m</Abbreviation>
+      <Class>Conductivity</Class>
+    </UOM>
+    <UOM>
+      <Name>microSiemens/m</Name>
+      <Abbreviation>microS/m</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>Siemens/m</RefUOM>
+      <Class>Conductivity</Class>
+    </UOM>
+    <UOM>
+      <Name>Euro</Name>
+      <Abbreviation>EUR</Abbreviation>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>EuroCent</Name>
+      <Abbreviation>ct</Abbreviation>
+      <RefFactor>0.01</RefFactor>
+      <RefUOM>Euro</RefUOM>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>FINNMARK</Name>
+      <Abbreviation>mk</Abbreviation>
+      <Description>FINNISH MARK</Description>
+      <RefFactor>5.97</RefFactor>
+      <RefUOM>Euro</RefUOM>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>GBP</Name>
+      <Abbreviation>£</Abbreviation>
+      <RefFactor>0.63</RefFactor>
+      <RefUOM>EuroCent</RefUOM>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>US Dollars</Name>
+      <Abbreviation>USD</Abbreviation>
+      <RefFactor>0.7</RefFactor>
+      <RefUOM>Euro</RefUOM>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>Millions of US Dollars</Name>
+      <Abbreviation>MUSD</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>US Dollars</RefUOM>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>Zloty</Name>
+      <Abbreviation>Zt</Abbreviation>
+      <RefFactor>0.27</RefFactor>
+      <RefUOM>Euro</RefUOM>
+      <Class>Currency</Class>
+    </UOM>
+    <UOM>
+      <Name>bits per second</Name>
+      <Abbreviation>bits/sec</Abbreviation>
+      <Class>Data Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>bits</Name>
+      <Abbreviation>bits</Abbreviation>
+      <Class>Data Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>dB</Name>
+      <Abbreviation>dB</Abbreviation>
+      <Class>Decibel</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram per cubic meter</Name>
+      <Abbreviation>kg/m3</Abbreviation>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>gram per cubic centimeter</Name>
+      <Abbreviation>gram per cubic centimeter</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>gram per liter</Name>
+      <Abbreviation>g/L</Abbreviation>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram per liter</Name>
+      <Abbreviation>kg/L</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>miligrams per liter</Name>
+      <Abbreviation>mg/L</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>gram per liter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>pound per barrel</Name>
+      <Abbreviation>lb/bbl</Abbreviation>
+      <RefFactor>2.85301017421182</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>pound per cubic foot</Name>
+      <Abbreviation>lb/ft3</Abbreviation>
+      <RefFactor>16.0184633739601</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>pound per US gallon</Name>
+      <Abbreviation>lb/US gal</Abbreviation>
+      <RefFactor>119.826427316897</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>pounds/pool</Name>
+      <Abbreviation>lbs/pool</Abbreviation>
+      <RefFactor>1E-07</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>tonne per cubic meter</Name>
+      <Abbreviation>t/m3</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>kilogram per cubic meter</RefUOM>
+      <Class>Density</Class>
+    </UOM>
+    <UOM>
+      <Name>pascal second</Name>
+      <Abbreviation>Pa*s</Abbreviation>
+      <Class>Dynamic Viscosity</Class>
+    </UOM>
+    <UOM>
+      <Name>poise</Name>
+      <Abbreviation>P</Abbreviation>
+      <RefFactor>0.1</RefFactor>
+      <RefUOM>pascal second</RefUOM>
+      <Class>Dynamic Viscosity</Class>
+    </UOM>
+    <UOM>
+      <Name>Centi Poise</Name>
+      <Abbreviation>cP</Abbreviation>
+      <RefFactor>0.01</RefFactor>
+      <RefUOM>poise</RefUOM>
+      <Class>Dynamic Viscosity</Class>
+    </UOM>
+    <UOM>
+      <Name>coulomb</Name>
+      <Abbreviation>C</Abbreviation>
+      <Class>Electric Charge</Class>
+    </UOM>
+    <UOM>
+      <Name>volt</Name>
+      <Abbreviation>V</Abbreviation>
+      <Class>Electric Potential</Class>
+    </UOM>
+    <UOM>
+      <Name>kilovolt</Name>
+      <Abbreviation>kV</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>volt</RefUOM>
+      <Class>Electric Potential</Class>
+    </UOM>
+    <UOM>
+      <Name>joule</Name>
+      <Abbreviation>J</Abbreviation>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit</Name>
+      <Abbreviation>Btu</Abbreviation>
+      <RefFactor>1055.05585262</RefFactor>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>calorie</Name>
+      <Abbreviation>cal</Abbreviation>
+      <RefFactor>4.1868</RefFactor>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>gigajoule</Name>
+      <Abbreviation>GJ</Abbreviation>
+      <RefFactor>1000000000</RefFactor>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kilocalorie</Name>
+      <Abbreviation>kcal</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>calorie</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kilojoule</Name>
+      <Abbreviation>kJ</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kilowatt hour</Name>
+      <Abbreviation>kWh</Abbreviation>
+      <RefFactor>3600000</RefFactor>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>mega watts hour</Name>
+      <Abbreviation>MWh</Abbreviation>
+      <Description>mega watts hour</Description>
+      <RefFactor>0.0001</RefFactor>
+      <RefUOM>kilowatt hour</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>megajoule</Name>
+      <Abbreviation>MJ</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>MegaWatts</Name>
+      <Abbreviation>MW</Abbreviation>
+      <Description>Generated Power</Description>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>kilowatt hour</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>million British thermal unit</Name>
+      <Abbreviation>MM Btu</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>British thermal unit</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>million calorie</Name>
+      <Abbreviation>MMcal</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>calorie</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>TeraWh</Name>
+      <Abbreviation>TWh</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>MegaWatts</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>Tons</Name>
+      <Abbreviation>Tons</Abbreviation>
+      <Description>Tons Refrigeration</Description>
+      <RefFactor>8.33E-05</RefFactor>
+      <RefUOM>British thermal unit</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>watt hour</Name>
+      <Abbreviation>Wh</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>kilowatt hour</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>watt second</Name>
+      <Abbreviation>Ws</Abbreviation>
+      <RefUOM>joule</RefUOM>
+      <Class>Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kWh per ton</Name>
+      <Abbreviation>kWh/t</Abbreviation>
+      <Class>Energy consumption</Class>
+    </UOM>
+    <UOM>
+      <Name>kW/gal/h</Name>
+      <Abbreviation>kW/gal/h</Abbreviation>
+      <Class>Energy Consumption rate per Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>kW/gal/d</Name>
+      <Abbreviation>kW/gal/d</Abbreviation>
+      <RefFormulaFrom>kW/gal/h * 24</RefFormulaFrom>
+      <RefFormulaTo>kW/gal/d / 24</RefFormulaTo>
+      <RefUOM>kW/gal/h</RefUOM>
+      <Class>Energy Consumption rate per Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>Dollars per KWh</Name>
+      <Abbreviation>$/KWh</Abbreviation>
+      <Class>Energy Cost</Class>
+    </UOM>
+    <UOM>
+      <Name>Dollars per MWh</Name>
+      <Abbreviation>$/MWh</Abbreviation>
+      <Description>Dollars per MWh</Description>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>Dollars per KWh</RefUOM>
+      <Class>Energy Cost</Class>
+    </UOM>
+    <UOM>
+      <Name>US$/Btu</Name>
+      <Abbreviation>US$/Btu</Abbreviation>
+      <RefUOM>Dollars per KWh</RefUOM>
+      <Class>Energy Cost</Class>
+    </UOM>
+    <UOM>
+      <Name>US$/MMBtu</Name>
+      <Abbreviation>US$/MMBtu</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>US$/Btu</RefUOM>
+      <Class>Energy Cost</Class>
+    </UOM>
+    <UOM>
+      <Name>Btu per time</Name>
+      <Abbreviation>Btu/min</Abbreviation>
+      <Class>Energy per time</Class>
+    </UOM>
+    <UOM>
+      <Name>BTU per hour</Name>
+      <Abbreviation>BTU/Hr</Abbreviation>
+      <Class>Energy Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent kilogram</Name>
+      <Abbreviation>FOE kg</Abbreviation>
+      <Class>FOE Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent pound</Name>
+      <Abbreviation>FOE lb</Abbreviation>
+      <RefFactor>0.45359237</RefFactor>
+      <RefUOM>fuel oil equivalent kilogram</RefUOM>
+      <Class>FOE Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent long ton</Name>
+      <Abbreviation>FOE lton</Abbreviation>
+      <RefFactor>2240</RefFactor>
+      <RefUOM>fuel oil equivalent pound</RefUOM>
+      <Class>FOE Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent metric ton</Name>
+      <Abbreviation>FOE t</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>fuel oil equivalent kilogram</RefUOM>
+      <Class>FOE Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent short ton</Name>
+      <Abbreviation>FOE ston</Abbreviation>
+      <RefFactor>2000</RefFactor>
+      <RefUOM>fuel oil equivalent pound</RefUOM>
+      <Class>FOE Mass</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent cubic meter</Name>
+      <Abbreviation>FOE m3</Abbreviation>
+      <Class>FOE Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent gallon</Name>
+      <Abbreviation>FOE gal</Abbreviation>
+      <RefFactor>0.003785411784</RefFactor>
+      <RefUOM>fuel oil equivalent cubic meter</RefUOM>
+      <Class>FOE Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent barrel</Name>
+      <Abbreviation>FOE bbl</Abbreviation>
+      <RefFactor>42</RefFactor>
+      <RefUOM>fuel oil equivalent gallon</RefUOM>
+      <Class>FOE Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent barrel (customary)</Name>
+      <Abbreviation>FOE-bbl</Abbreviation>
+      <RefUOM>fuel oil equivalent barrel</RefUOM>
+      <Class>FOE Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>fuel oil equivalent liter</Name>
+      <Abbreviation>FOE L</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>fuel oil equivalent cubic meter</RefUOM>
+      <Class>FOE Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand fuel oil equivalent barrel (customary)</Name>
+      <Abbreviation>k FOE-bbl</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>fuel oil equivalent barrel</RefUOM>
+      <Class>FOE Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>newton</Name>
+      <Abbreviation>N</Abbreviation>
+      <Class>Force</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram-force</Name>
+      <Abbreviation>kgf</Abbreviation>
+      <RefFactor>9.80665</RefFactor>
+      <RefUOM>newton</RefUOM>
+      <Class>Force</Class>
+    </UOM>
+    <UOM>
+      <Name>Alesf</Name>
+      <Abbreviation>AF</Abbreviation>
+      <RefFactor>1.5</RefFactor>
+      <RefUOM>kilogram-force</RefUOM>
+      <Class>Force</Class>
+    </UOM>
+    <UOM>
+      <Name>dyne</Name>
+      <Abbreviation>dyne</Abbreviation>
+      <RefFactor>1E-05</RefFactor>
+      <RefUOM>newton</RefUOM>
+      <Class>Force</Class>
+    </UOM>
+    <UOM>
+      <Name>pound-force</Name>
+      <Abbreviation>lbf</Abbreviation>
+      <RefFactor>4.44822161526</RefFactor>
+      <RefUOM>newton</RefUOM>
+      <Class>Force</Class>
+    </UOM>
+    <UOM>
+      <Name>hertz</Name>
+      <Abbreviation>Hz</Abbreviation>
+      <Class>Frequency</Class>
+    </UOM>
+    <UOM>
+      <Name>delta kelvin</Name>
+      <Abbreviation>delta K</Abbreviation>
+      <Class>Temperature (Delta)</Class>
+    </UOM>
+    <UOM>
+      <Name>delta degree Celsius</Name>
+      <Abbreviation>delta °C</Abbreviation>
+      <RefUOM>delta kelvin</RefUOM>
+      <Class>Temperature (Delta)</Class>
+    </UOM>
+    <UOM>
+      <Name>delta degree Fahrenheit</Name>
+      <Abbreviation>delta °F</Abbreviation>
+      <RefFactor>0.555555555555556</RefFactor>
+      <RefUOM>delta degree Celsius</RefUOM>
+      <Class>Temperature (Delta)</Class>
+    </UOM>
+    <UOM>
+      <Name>delta degree Rankine</Name>
+      <Abbreviation>delta °R</Abbreviation>
+      <RefFactor>0.555555555555556</RefFactor>
+      <RefUOM>delta degree Celsius</RefUOM>
+      <Class>Temperature (Delta)</Class>
+    </UOM>
+    <UOM>
+      <Name>Calorie per gram degree C</Name>
+      <Abbreviation>Cal/g/Deg C</Abbreviation>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>Joule per Kilogram kelvin</Name>
+      <Abbreviation>J/(kg K)</Abbreviation>
+      <RefUOM>Calorie per gram degree C</RefUOM>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per pound degree Fahrenheit</Name>
+      <Abbreviation>BTU/(lb °F)</Abbreviation>
+      <RefFactor>4186.7999999999965</RefFactor>
+      <RefUOM>Joule per Kilogram kelvin</RefUOM>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>BTU per pound degree F</Name>
+      <Abbreviation>BTU/Lb/Deg F</Abbreviation>
+      <RefUOM>Calorie per gram degree C</RefUOM>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>Btu/lb/F</Name>
+      <Abbreviation>Btu/lb/F</Abbreviation>
+      <RefUOM>Joule per Kilogram kelvin</RefUOM>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>J/kg/F</Name>
+      <Abbreviation>J/kg/F</Abbreviation>
+      <RefFactor>0.00023884589662749592</RefFactor>
+      <RefUOM>Btu/lb/F</RefUOM>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>kcal/kg/°C</Name>
+      <Abbreviation>kcal/kg/°C</Abbreviation>
+      <RefUOM>Calorie per gram degree C</RefUOM>
+      <Class>Heat Capacity</Class>
+    </UOM>
+    <UOM>
+      <Name>Btu/h/ft2/F</Name>
+      <Abbreviation>Btu/h/ft2/F</Abbreviation>
+      <Class>Heat Transfer</Class>
+    </UOM>
+    <UOM>
+      <Name>J/h/m2/C</Name>
+      <Abbreviation>J/h/m2/C</Abbreviation>
+      <RefFactor>4.8919495467307282E-05</RefFactor>
+      <RefUOM>Btu/h/ft2/F</RefUOM>
+      <Class>Heat Transfer</Class>
+    </UOM>
+    <UOM>
+      <Name>MM Btu/h/ft2/F</Name>
+      <Abbreviation>MM Btu/h/ft2/F</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>Btu/h/ft2/F</RefUOM>
+      <Class>Heat Transfer</Class>
+    </UOM>
+    <UOM>
+      <Name>kelvin</Name>
+      <Abbreviation>K</Abbreviation>
+      <Class>Temperature</Class>
+    </UOM>
+    <UOM>
+      <Name>Celsius</Name>
+      <Abbreviation>deg C</Abbreviation>
+      <RefUOM>kelvin</RefUOM>
+      <Class>Temperature</Class>
+    </UOM>
+    <UOM>
+      <Name>degree Celsius</Name>
+      <Abbreviation>°C</Abbreviation>
+      <RefOffset>273.15</RefOffset>
+      <RefUOM>kelvin</RefUOM>
+      <Class>Temperature</Class>
+    </UOM>
+    <UOM>
+      <Name>degree Fahrenheit</Name>
+      <Abbreviation>°F</Abbreviation>
+      <RefFactor>0.555555555555556</RefFactor>
+      <RefOffset>-17.7777777777778</RefOffset>
+      <RefUOM>degree Celsius</RefUOM>
+      <Class>Temperature</Class>
+    </UOM>
+    <UOM>
+      <Name>degree Rankine</Name>
+      <Abbreviation>°R</Abbreviation>
+      <RefOffset>-459.67</RefOffset>
+      <RefUOM>degree Fahrenheit</RefUOM>
+      <Class>Temperature</Class>
+    </UOM>
+    <UOM>
+      <Name>Fahrenheit</Name>
+      <Abbreviation>deg F</Abbreviation>
+      <RefUOM>degree Fahrenheit</RefUOM>
+      <Class>Temperature</Class>
+    </UOM>
+    <UOM>
+      <Name>BTU/Hr/Ft2/DegF</Name>
+      <Abbreviation>BTU/Hr/Ft2/DegF</Abbreviation>
+      <Class>Heat Transfer Coefficient</Class>
+    </UOM>
+    <UOM>
+      <Name>Watt per square meter kelvin</Name>
+      <Abbreviation>W/(m2 K)</Abbreviation>
+      <RefUOM>BTU/Hr/Ft2/DegF</RefUOM>
+      <Class>Heat Transfer Coefficient</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per hour square foot degree Fahrenheit</Name>
+      <Abbreviation>BTU/(h ft2 °F))</Abbreviation>
+      <RefFactor>19.3750387500775</RefFactor>
+      <RefUOM>Watt per square meter kelvin</RefUOM>
+      <Class>Heat Transfer Coefficient</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal units per hour square foot degree Fahrenheit</Name>
+      <Abbreviation>BTU/(h ft2 °F)</Abbreviation>
+      <Description>British thermal units per hour square foot degree Fahrenheit</Description>
+      <RefFactor>19.3750387500775</RefFactor>
+      <RefUOM>Watt per square meter kelvin</RefUOM>
+      <Class>Heat Transfer Coefficient</Class>
+    </UOM>
+    <UOM>
+      <Name>BTU per F ft2 Hr</Name>
+      <Abbreviation>BTU per F ft2 Hr</Abbreviation>
+      <RefUOM>Watt per square meter kelvin</RefUOM>
+      <Class>Heat Transfer Coefficient</Class>
+    </UOM>
+    <UOM>
+      <Name>kcal/h/mm2/°C</Name>
+      <Abbreviation>kcal/h/mm2/°C</Abbreviation>
+      <RefUOM>BTU/Hr/Ft2/DegF</RefUOM>
+      <Class>Heat Transfer Coefficient</Class>
+    </UOM>
+    <UOM>
+      <Name>W/m2/K</Name>
+      <Abbreviation>W/m2/K</Abbreviation>
+      <Class>HeatTransfer</Class>
+    </UOM>
+    <UOM>
+      <Name>ampere per ton of feed</Name>
+      <Abbreviation>A/tf</Abbreviation>
+      <Class>KPI Electric Current</Class>
+    </UOM>
+    <UOM>
+      <Name>US gallon per minute per ton of feed</Name>
+      <Abbreviation>US Gal/min/tf</Abbreviation>
+      <Class>KPI Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand standard cubic foot per hour per ton of Feed</Name>
+      <Abbreviation>k sft3/h/tf</Abbreviation>
+      <Class>KPI Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand standard cubic foot per hour per ton of Feed (Customary)</Name>
+      <Abbreviation>k scf/h/tF</Abbreviation>
+      <RefUOM>thousand standard cubic foot per hour per ton of Feed</RefUOM>
+      <Class>KPI Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>candela</Name>
+      <Abbreviation>cd</Abbreviation>
+      <Class>Luminous Intensity</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram per second</Name>
+      <Abbreviation>kg/s</Abbreviation>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>gram per second</Name>
+      <Abbreviation>g/s</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>kilogram per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>tonne per day</Name>
+      <Abbreviation>t/d</Abbreviation>
+      <RefFactor>0.0115740740740741</RefFactor>
+      <RefUOM>kilogram per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>tonne per hour</Name>
+      <Abbreviation>t/hr</Abbreviation>
+      <RefFactor>24</RefFactor>
+      <RefUOM>tonne per day</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram per hour</Name>
+      <Abbreviation>kg/h</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>tonne per hour</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>pound per second</Name>
+      <Abbreviation>lb/s</Abbreviation>
+      <RefFactor>0.45359237</RefFactor>
+      <RefUOM>kilogram per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>long ton per day</Name>
+      <Abbreviation>lton/d</Abbreviation>
+      <RefFactor>0.0259259259259259</RefFactor>
+      <RefUOM>pound per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>million pound per day</Name>
+      <Abbreviation>MMlb/d</Abbreviation>
+      <RefFactor>11.5740740740741</RefFactor>
+      <RefUOM>pound per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>pounds per hour</Name>
+      <Abbreviation>PPH</Abbreviation>
+      <Description>pounds of water flow </Description>
+      <RefFactor>0.01667</RefFactor>
+      <RefUOM>pound per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>pounds per day</Name>
+      <Abbreviation>lb/d</Abbreviation>
+      <RefFactor>24</RefFactor>
+      <RefUOM>pounds per hour</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>short ton per day</Name>
+      <Abbreviation>ston/d</Abbreviation>
+      <RefFactor>0.0231481481481481</RefFactor>
+      <RefUOM>pound per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand pound per day</Name>
+      <Abbreviation>klb/d</Abbreviation>
+      <RefFactor>0.0115740740740741</RefFactor>
+      <RefUOM>pound per second</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand lb per hr</Name>
+      <Abbreviation>k lb/hr</Abbreviation>
+      <Description>thousand lb per hr</Description>
+      <RefFactor>0.01467</RefFactor>
+      <RefUOM>thousand pound per day</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand pounds per hour</Name>
+      <Abbreviation>klb/hr</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>pounds per hour</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>ton per hour</Name>
+      <Abbreviation>ston/h</Abbreviation>
+      <RefFactor>24</RefFactor>
+      <RefUOM>short ton per day</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>tons per hour</Name>
+      <Abbreviation>t/h</Abbreviation>
+      <RefFactor>24</RefFactor>
+      <RefUOM>tonne per day</RefUOM>
+      <Class>Mass Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>Megabytes</Name>
+      <Abbreviation>MB</Abbreviation>
+      <Class>Memory</Class>
+    </UOM>
+    <UOM>
+      <Name>Bytes</Name>
+      <Abbreviation>Bytes</Abbreviation>
+      <Description>Bytes of Storage</Description>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>Megabytes</RefUOM>
+      <Class>Memory</Class>
+    </UOM>
+    <UOM>
+      <Name>Gigabytes</Name>
+      <Abbreviation>GB</Abbreviation>
+      <Description>Gigabytes of Storage</Description>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>Megabytes</RefUOM>
+      <Class>Memory</Class>
+    </UOM>
+    <UOM>
+      <Name>Kilobytes</Name>
+      <Abbreviation>KB</Abbreviation>
+      <Description>Kilobytes of Storage</Description>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>Megabytes</RefUOM>
+      <Class>Memory</Class>
+    </UOM>
+    <UOM>
+      <Name>mole</Name>
+      <Abbreviation>mol</Abbreviation>
+      <Class>Moles</Class>
+    </UOM>
+    <UOM>
+      <Name>gram mole</Name>
+      <Abbreviation>gmol</Abbreviation>
+      <RefUOM>mole</RefUOM>
+      <Class>Moles</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram mole</Name>
+      <Abbreviation>kmol</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>mole</RefUOM>
+      <Class>Moles</Class>
+    </UOM>
+    <UOM>
+      <Name>pound mole</Name>
+      <Abbreviation>lbmol</Abbreviation>
+      <RefFactor>453.59237</RefFactor>
+      <RefUOM>mole</RefUOM>
+      <Class>Moles</Class>
+    </UOM>
+    <UOM>
+      <Name>mole per second</Name>
+      <Abbreviation>mol/s</Abbreviation>
+      <Class>Molar Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>gram mole per second</Name>
+      <Abbreviation>gmol/s</Abbreviation>
+      <RefUOM>mole per second</RefUOM>
+      <Class>Molar Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram mole per second</Name>
+      <Abbreviation>kmol/s</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>mole per second</RefUOM>
+      <Class>Molar Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>pound mole per second</Name>
+      <Abbreviation>lbmol/s</Abbreviation>
+      <RefFactor>453.59237</RefFactor>
+      <RefUOM>mole per second</RefUOM>
+      <Class>Molar Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic meter per gram mole</Name>
+      <Abbreviation>Nm3/gmol</Abbreviation>
+      <Class>Molar Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic meter per kg mole</Name>
+      <Abbreviation>Nm3/kmol</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>normal cubic meter per gram mole</RefUOM>
+      <Class>Molar Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic foot per lb mole</Name>
+      <Abbreviation>Nft3/lbmol</Abbreviation>
+      <RefFactor>0.0624279605761446</RefFactor>
+      <RefUOM>normal cubic meter per kg mole</RefUOM>
+      <Class>Molar Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic foot per lb mole (customary)</Name>
+      <Abbreviation>Ncf/lbmol</Abbreviation>
+      <RefFactor>0.0624279605761446</RefFactor>
+      <RefUOM>normal cubic meter per kg mole</RefUOM>
+      <Class>Molar Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal liter per gram mole</Name>
+      <Abbreviation>NL/gmol</Abbreviation>
+      <RefUOM>normal cubic meter per kg mole</RefUOM>
+      <Class>Molar Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic meter per gram mole</Name>
+      <Abbreviation>sm3/gmol</Abbreviation>
+      <Class>Molar Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic meter per kg mole</Name>
+      <Abbreviation>sm3/kmol</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>standard cubic meter per gram mole</RefUOM>
+      <Class>Molar Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic foot per lb mole</Name>
+      <Abbreviation>sft3/lbmol</Abbreviation>
+      <RefFactor>0.0624279605761446</RefFactor>
+      <RefUOM>standard cubic meter per kg mole</RefUOM>
+      <Class>Molar Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic foot per lb mole (customary)</Name>
+      <Abbreviation>scf/lbmol</Abbreviation>
+      <RefFactor>0.0624279605761446</RefFactor>
+      <RefUOM>standard cubic meter per kg mole</RefUOM>
+      <Class>Molar Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard liter per gram mole</Name>
+      <Abbreviation>sL/gmol</Abbreviation>
+      <RefUOM>standard cubic meter per kg mole</RefUOM>
+      <Class>Molar Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram per mole</Name>
+      <Abbreviation>kg/mol</Abbreviation>
+      <Class>Molecular Weight</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram per kilogram mole</Name>
+      <Abbreviation>kg/kmol</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>kilogram per mole</RefUOM>
+      <Class>Molecular Weight</Class>
+    </UOM>
+    <UOM>
+      <Name>gram per gram mole</Name>
+      <Abbreviation>g/gmol</Abbreviation>
+      <RefUOM>kilogram per kilogram mole</RefUOM>
+      <Class>Molecular Weight</Class>
+    </UOM>
+    <UOM>
+      <Name>pound per pound mole</Name>
+      <Abbreviation>lb/lbmol</Abbreviation>
+      <RefUOM>kilogram per kilogram mole</RefUOM>
+      <Class>Molecular Weight</Class>
+    </UOM>
+    <UOM>
+      <Name>Dollar</Name>
+      <Abbreviation>$</Abbreviation>
+      <Class>Money</Class>
+    </UOM>
+    <UOM>
+      <Name>bolivares</Name>
+      <Abbreviation>bs</Abbreviation>
+      <RefFactor>0.12</RefFactor>
+      <RefUOM>Dollar</RefUOM>
+      <Class>Money</Class>
+    </UOM>
+    <UOM>
+      <Name>USDollar</Name>
+      <Abbreviation>US$</Abbreviation>
+      <RefUOM>Dollar</RefUOM>
+      <Class>Money</Class>
+    </UOM>
+    <UOM>
+      <Name>USCents</Name>
+      <Abbreviation>¢</Abbreviation>
+      <RefFactor>0.01</RefFactor>
+      <RefUOM>USDollar</RefUOM>
+      <Class>Money</Class>
+    </UOM>
+    <UOM>
+      <Name>Dollars per Million Btu</Name>
+      <Abbreviation>$/MMBtu</Abbreviation>
+      <Class>Natural Gas Cost</Class>
+    </UOM>
+    <UOM>
+      <Name>Number</Name>
+      <Abbreviation>Number</Abbreviation>
+      <Class>Number</Class>
+    </UOM>
+    <UOM>
+      <Name>Dollars per cubic meter</Name>
+      <Abbreviation>$/m3</Abbreviation>
+      <Class>Oil Fuel Cost</Class>
+    </UOM>
+    <UOM>
+      <Name>watt</Name>
+      <Abbreviation>W</Abbreviation>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per hour</Name>
+      <Abbreviation>Btu/h</Abbreviation>
+      <RefFactor>0.29307107017222</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per second</Name>
+      <Abbreviation>Btu/s</Abbreviation>
+      <RefFactor>3600</RefFactor>
+      <RefUOM>British thermal unit per hour</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>calorie per second</Name>
+      <Abbreviation>cal/s</Abbreviation>
+      <RefFactor>4.1868</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>horsepower</Name>
+      <Abbreviation>hp</Abbreviation>
+      <RefFactor>745.699871582</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>joule per second</Name>
+      <Abbreviation>J/s</Abbreviation>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>kilovoltamp</Name>
+      <Abbreviation>kVA</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>kilowatt</Name>
+      <Abbreviation>kW</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>megajoule per hour</Name>
+      <Abbreviation>MJ/h</Abbreviation>
+      <RefFactor>277.777777777778</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>million British thermal unit per day</Name>
+      <Abbreviation>MM Btu/d</Abbreviation>
+      <RefFactor>41666.6666666667</RefFactor>
+      <RefUOM>British thermal unit per hour</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>million British thermal unit per hour</Name>
+      <Abbreviation>MM Btu/h</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>British thermal unit per hour</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>million calorie per hour</Name>
+      <Abbreviation>MMcal/h</Abbreviation>
+      <RefFactor>1163</RefFactor>
+      <RefUOM>watt</RefUOM>
+      <Class>Power</Class>
+    </UOM>
+    <UOM>
+      <Name>pascal</Name>
+      <Abbreviation>Pa</Abbreviation>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>atmosphere</Name>
+      <Abbreviation>atm</Abbreviation>
+      <RefFactor>101325</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>bar</Name>
+      <Abbreviation>bar</Abbreviation>
+      <RefFactor>100000</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>Feet of Water</Name>
+      <Abbreviation>ft H2O</Abbreviation>
+      <RefFactor>2989.07</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>Hans</Name>
+      <Abbreviation>Hpress</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>atmosphere</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>inches of mercury</Name>
+      <Abbreviation>inHg</Abbreviation>
+      <RefFactor>3386.38815789</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram-force per square centimeter</Name>
+      <Abbreviation>kgf/cm2</Abbreviation>
+      <RefFactor>98066.5</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>kilogram-force per square meter</Name>
+      <Abbreviation>kgf/m2</Abbreviation>
+      <RefFactor>9.80665</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>kilopascal</Name>
+      <Abbreviation>kPa</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>milibar</Name>
+      <Abbreviation>mbar</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>bar</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>millimeter of mercury</Name>
+      <Abbreviation>mmHg</Abbreviation>
+      <RefFactor>133.322368421</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>newton per square meter</Name>
+      <Abbreviation>N/m2</Abbreviation>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>pound-force per square inch</Name>
+      <Abbreviation>psi</Abbreviation>
+      <RefFactor>6894.75729316836</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>pound-force per square inch (customary)</Name>
+      <Abbreviation>psia</Abbreviation>
+      <RefFactor>6894.75729316836</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>test</Name>
+      <Abbreviation>tst</Abbreviation>
+      <RefFactor>1.667</RefFactor>
+      <RefUOM>bar</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>torr</Name>
+      <Abbreviation>torr</Abbreviation>
+      <RefFactor>133.322368421</RefFactor>
+      <RefUOM>pascal</RefUOM>
+      <Class>Pressure</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. pascal</Name>
+      <Abbreviation>Pa(g)</Abbreviation>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. atmosphere</Name>
+      <Abbreviation>atm(g)</Abbreviation>
+      <RefFactor>101325</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. bar</Name>
+      <Abbreviation>bar(g)</Abbreviation>
+      <RefFactor>100000</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. inches of mercury</Name>
+      <Abbreviation>inHg(g)</Abbreviation>
+      <RefFactor>3386.38815789</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. kilogram-force per square centimeter</Name>
+      <Abbreviation>kg/cm2(g)</Abbreviation>
+      <RefFactor>98066.5</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. kilogram-force per square meter</Name>
+      <Abbreviation>kg/m2(g)</Abbreviation>
+      <RefFactor>9.80665</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. kilopascal</Name>
+      <Abbreviation>kPa(g)</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. millibar</Name>
+      <Abbreviation>mbar(g)</Abbreviation>
+      <Description>Millibar gauge</Description>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>rel. bar</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. millimeter of mercury</Name>
+      <Abbreviation>mmHg(g)</Abbreviation>
+      <RefFactor>133.322368421</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. newton per square meter</Name>
+      <Abbreviation>N/m2(g)</Abbreviation>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. pound-force per square inch</Name>
+      <Abbreviation>psig</Abbreviation>
+      <RefFactor>6894.75729316836</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>rel. torr</Name>
+      <Abbreviation>torr(g)</Abbreviation>
+      <RefFactor>133.322368421</RefFactor>
+      <RefUOM>rel. pascal</RefUOM>
+      <Class>Pressure (Gauge)</Class>
+    </UOM>
+    <UOM>
+      <Name>Pound per Square Inch per 100 feet</Name>
+      <Abbreviation>psi/100 ft</Abbreviation>
+      <Class>Pressure Drop per Length</Class>
+    </UOM>
+    <UOM>
+      <Name>Pound per Square Inch per Foot</Name>
+      <Abbreviation>psi/ft</Abbreviation>
+      <RefFactor>100</RefFactor>
+      <RefUOM>Pound per Square Inch per 100 feet</RefUOM>
+      <Class>Pressure Drop per Length</Class>
+    </UOM>
+    <UOM>
+      <Name>count</Name>
+      <Abbreviation>count</Abbreviation>
+      <Class>Quantity</Class>
+    </UOM>
+    <UOM>
+      <Name>percent</Name>
+      <Abbreviation>%</Abbreviation>
+      <Class>Ratio</Class>
+    </UOM>
+    <UOM>
+      <Name>parts per billion</Name>
+      <Abbreviation>ppb</Abbreviation>
+      <RefFactor>1E-07</RefFactor>
+      <RefUOM>percent</RefUOM>
+      <Class>Ratio</Class>
+    </UOM>
+    <UOM>
+      <Name>parts per million</Name>
+      <Abbreviation>ppm</Abbreviation>
+      <RefFactor>0.0001</RefFactor>
+      <RefUOM>percent</RefUOM>
+      <Class>Ratio</Class>
+    </UOM>
+    <UOM>
+      <Name>percentage</Name>
+      <Abbreviation>percentage</Abbreviation>
+      <RefUOM>percent</RefUOM>
+      <Class>Ratio</Class>
+    </UOM>
+    <UOM>
+      <Name>joule per kilogram</Name>
+      <Abbreviation>J/kg</Abbreviation>
+      <Class>Specific Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per pound</Name>
+      <Abbreviation>Btu/lb</Abbreviation>
+      <RefFactor>2326</RefFactor>
+      <RefUOM>joule per kilogram</RefUOM>
+      <Class>Specific Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kilocalorie per kilogram</Name>
+      <Abbreviation>kcal/kg</Abbreviation>
+      <RefFactor>4186.8</RefFactor>
+      <RefUOM>joule per kilogram</RefUOM>
+      <Class>Specific Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kilojoule per kilogram</Name>
+      <Abbreviation>kJ/kg</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>joule per kilogram</RefUOM>
+      <Class>Specific Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kilojoule per pound</Name>
+      <Abbreviation>kJ/lb</Abbreviation>
+      <RefFactor>2204.62262184878</RefFactor>
+      <RefUOM>joule per kilogram</RefUOM>
+      <Class>Specific Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>Million Btu per standard cubic volume</Name>
+      <Abbreviation>MMBtu/SCF</Abbreviation>
+      <Class>Specific Energy-Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>specific gravity</Name>
+      <Abbreviation>SG</Abbreviation>
+      <Class>Specific Gravity</Class>
+    </UOM>
+    <UOM>
+      <Name>API gravity</Name>
+      <Abbreviation>API</Abbreviation>
+      <RefFormulaFrom>141.5/SG-131.5</RefFormulaFrom>
+      <RefFormulaTo>141.5/(131.5+API)</RefFormulaTo>
+      <RefUOM>specific gravity</RefUOM>
+      <Class>Specific Gravity</Class>
+    </UOM>
+    <UOM>
+      <Name>Ton per kW</Name>
+      <Abbreviation>t/kW</Abbreviation>
+      <Class>Specific Power</Class>
+    </UOM>
+    <UOM>
+      <Name>kg per kW</Name>
+      <Abbreviation>kg/kW</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>Ton per kW</RefUOM>
+      <Class>Specific Power</Class>
+    </UOM>
+    <UOM>
+      <Name>lb per kW</Name>
+      <Abbreviation>lb/kW</Abbreviation>
+      <RefFactor>0.45359237</RefFactor>
+      <RefUOM>kg per kW</RefUOM>
+      <Class>Specific Power</Class>
+    </UOM>
+    <UOM>
+      <Name>Gal/lb</Name>
+      <Abbreviation>Gal/lb</Abbreviation>
+      <Class>Specific Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>Gal/Bushel</Name>
+      <Abbreviation>Gal/Bushel</Abbreviation>
+      <RefFactor>0.017857142857</RefFactor>
+      <RefUOM>Gal/lb</RefUOM>
+      <Class>Specific Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>meter per second</Name>
+      <Abbreviation>m/s</Abbreviation>
+      <Class>Speed</Class>
+    </UOM>
+    <UOM>
+      <Name>centimeter per second</Name>
+      <Abbreviation>cm/s</Abbreviation>
+      <RefFactor>0.01</RefFactor>
+      <RefUOM>meter per second</RefUOM>
+      <Class>Speed</Class>
+    </UOM>
+    <UOM>
+      <Name>foot per second</Name>
+      <Abbreviation>ft/s</Abbreviation>
+      <RefFactor>0.3048</RefFactor>
+      <RefUOM>meter per second</RefUOM>
+      <Class>Speed</Class>
+    </UOM>
+    <UOM>
+      <Name>International nautical mile per hour</Name>
+      <Abbreviation>nmi/h</Abbreviation>
+      <RefFactor>0.514444444444444</RefFactor>
+      <RefUOM>meter per second</RefUOM>
+      <Class>Speed</Class>
+    </UOM>
+    <UOM>
+      <Name>kilometer per hour</Name>
+      <Abbreviation>km/h</Abbreviation>
+      <RefFactor>0.277777777777778</RefFactor>
+      <RefUOM>meter per second</RefUOM>
+      <Class>Speed</Class>
+    </UOM>
+    <UOM>
+      <Name>mile per hour</Name>
+      <Abbreviation>mi/h</Abbreviation>
+      <RefFactor>0.44704</RefFactor>
+      <RefUOM>meter per second</RefUOM>
+      <Class>Speed</Class>
+    </UOM>
+    <UOM>
+      <Name>Torque</Name>
+      <Abbreviation>Torque</Abbreviation>
+      <Class>Torque</Class>
+    </UOM>
+    <UOM>
+      <Name>Nm</Name>
+      <Abbreviation>Nm</Abbreviation>
+      <RefUOM>Torque</RefUOM>
+      <Class>Torque</Class>
+    </UOM>
+    <UOM>
+      <Name>NTU</Name>
+      <Abbreviation>NTU</Abbreviation>
+      <Class>Turbidity</Class>
+    </UOM>
+    <UOM>
+      <Name>poiseuille</Name>
+      <Abbreviation>pois</Abbreviation>
+      <Class>Viscosity</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic meter</Name>
+      <Abbreviation>m3</Abbreviation>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic foot</Name>
+      <Abbreviation>ft3</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>acre foot</Name>
+      <Abbreviation>acre ft</Abbreviation>
+      <RefFactor>43560</RefFactor>
+      <RefUOM>cubic foot</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>US gallon</Name>
+      <Abbreviation>US gal</Abbreviation>
+      <RefFactor>0.003785411784</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>barrel</Name>
+      <Abbreviation>bbl</Abbreviation>
+      <RefFactor>42</RefFactor>
+      <RefUOM>US gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic centimeter</Name>
+      <Abbreviation>cm3</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>Gallon</Name>
+      <Abbreviation>gal</Abbreviation>
+      <RefUOM>US gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>Imperial gallon</Name>
+      <Abbreviation>Imp gal</Abbreviation>
+      <RefFactor>1.20094992550485</RefFactor>
+      <RefUOM>US gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>gallon imperial (customary)</Name>
+      <Abbreviation>UK gal</Abbreviation>
+      <RefUOM>Imperial gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>kiloliter</Name>
+      <Abbreviation>kL</Abbreviation>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>liter</Name>
+      <Abbreviation>L</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>megaliter</Name>
+      <Abbreviation>M L</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>milliliter</Name>
+      <Abbreviation>mL</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>million barrel</Name>
+      <Abbreviation>MMbbl</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>barrel</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>million US gallon</Name>
+      <Abbreviation>US Mgal</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>US gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>million gallon (customary)</Name>
+      <Abbreviation>US MMgal</Abbreviation>
+      <RefUOM>million US gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>million imperial gallon</Name>
+      <Abbreviation>Imp Mgal</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>Imperial gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>million gallon imperial (customary)</Name>
+      <Abbreviation>UK Mgal</Abbreviation>
+      <RefUOM>million imperial gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand barrel</Name>
+      <Abbreviation>kbbl</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>barrel</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand cubic meter</Name>
+      <Abbreviation>k m3</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>cubic meter</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand imperial gallon</Name>
+      <Abbreviation>Imp kgal</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>Imperial gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand gallon imperial (customary)</Name>
+      <Abbreviation>UK kgal</Abbreviation>
+      <RefUOM>thousand imperial gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand US gallon</Name>
+      <Abbreviation>US kgal</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>US gallon</RefUOM>
+      <Class>Volume</Class>
+    </UOM>
+    <UOM>
+      <Name>actual cubic meter</Name>
+      <Abbreviation>Am3</Abbreviation>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>actual cubic foot</Name>
+      <Abbreviation>aft3</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>actual cubic meter</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>actual cubic foot (customary)</Name>
+      <Abbreviation>acf</Abbreviation>
+      <RefUOM>actual cubic foot</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic foot</Name>
+      <Abbreviation>MM aft3</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>actual cubic foot</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic foot (customary)</Name>
+      <Abbreviation>MM acf</Abbreviation>
+      <RefUOM>million actual cubic foot</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic meter</Name>
+      <Abbreviation>MMAm3</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>actual cubic meter</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic meter (customary)</Name>
+      <Abbreviation>M Am3</Abbreviation>
+      <RefUOM>million actual cubic meter</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand actual cubic foot</Name>
+      <Abbreviation>k aft3</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>actual cubic foot</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand actual cubic foot (customary)</Name>
+      <Abbreviation>k acf</Abbreviation>
+      <RefUOM>thousand actual cubic foot</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand actual cubic meter</Name>
+      <Abbreviation>k Am3</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>actual cubic meter</RefUOM>
+      <Class>Volume (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic meter</Name>
+      <Abbreviation>Nm3</Abbreviation>
+      <Class>Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>million normal cubic meter</Name>
+      <Abbreviation>MNm3</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>normal cubic meter</RefUOM>
+      <Class>Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic foot</Name>
+      <Abbreviation>Nft3</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>normal cubic meter</RefUOM>
+      <Class>Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand normal cubic meter</Name>
+      <Abbreviation>kNm3</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>normal cubic meter</RefUOM>
+      <Class>Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand normal cubic meter (customary)</Name>
+      <Abbreviation>k Nm3</Abbreviation>
+      <RefUOM>thousand normal cubic meter</RefUOM>
+      <Class>Volume (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic meter</Name>
+      <Abbreviation>sm3</Abbreviation>
+      <Class>Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic foot</Name>
+      <Abbreviation>sft3</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>standard cubic meter</RefUOM>
+      <Class>Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>million standard cubic foot</Name>
+      <Abbreviation>MM scf</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>standard cubic foot</RefUOM>
+      <Class>Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>Mscf</Name>
+      <Abbreviation>Mscf</Abbreviation>
+      <RefUOM>million standard cubic foot</RefUOM>
+      <Class>Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic foot (customary)</Name>
+      <Abbreviation>scf</Abbreviation>
+      <RefUOM>standard cubic foot</RefUOM>
+      <Class>Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand standard cubic foot</Name>
+      <Abbreviation>k scf</Abbreviation>
+      <RefFactor>1000</RefFactor>
+      <RefUOM>standard cubic foot</RefUOM>
+      <Class>Volume (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic meter per second</Name>
+      <Abbreviation>m3/s</Abbreviation>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>barrel per day</Name>
+      <Abbreviation>bbl/d</Abbreviation>
+      <RefFactor>1.84013072833333E-06</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>barrel per day2</Name>
+      <Abbreviation>B/D</Abbreviation>
+      <RefFormulaFrom>bbl/d</RefFormulaFrom>
+      <RefFormulaTo>B/D</RefFormulaTo>
+      <RefUOM>barrel per day</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic centimeter per second</Name>
+      <Abbreviation>cm3/s</Abbreviation>
+      <RefFactor>1E-06</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic foot per second</Name>
+      <Abbreviation>ft3/s</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic foot per minute</Name>
+      <Abbreviation>ft3/m</Abbreviation>
+      <Description>cubic foot per minute</Description>
+      <RefFactor>0.01666667</RefFactor>
+      <RefUOM>cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>cubic meter per hour</Name>
+      <Abbreviation>m3/h</Abbreviation>
+      <RefFactor>0.000277777777777778</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>US gallon per minute</Name>
+      <Abbreviation>US gal/min</Abbreviation>
+      <RefFactor>6.30901964E-05</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>Gallons per minute</Name>
+      <Abbreviation>gpm</Abbreviation>
+      <RefUOM>US gallon per minute</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>Gallons per Day</Name>
+      <Abbreviation>gpd</Abbreviation>
+      <RefFormulaFrom>gpm * 1440</RefFormulaFrom>
+      <RefFormulaTo>gpd / 1440</RefFormulaTo>
+      <RefUOM>Gallons per minute</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>Gallons per year</Name>
+      <Abbreviation>gpy</Abbreviation>
+      <RefFormulaFrom>gpd * 365</RefFormulaFrom>
+      <RefFormulaTo>gpy / 365</RefFormulaTo>
+      <RefUOM>Gallons per Day</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>Imperial gallon per minute</Name>
+      <Abbreviation>Imp gal/min</Abbreviation>
+      <RefFactor>7.57681666666663E-05</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>liter per second</Name>
+      <Abbreviation>L/s</Abbreviation>
+      <RefFactor>0.001</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>liter per hour</Name>
+      <Abbreviation>L/h</Abbreviation>
+      <RefFactor>0.00027778</RefFactor>
+      <RefUOM>liter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>Million gallons per year</Name>
+      <Abbreviation>mgy</Abbreviation>
+      <RefFactor>1000000</RefFactor>
+      <RefUOM>Gallons per year</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand barrel per day</Name>
+      <Abbreviation>kbbl/d</Abbreviation>
+      <RefFactor>0.00184013072</RefFactor>
+      <RefUOM>cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate</Class>
+    </UOM>
+    <UOM>
+      <Name>actual cubic meter per second</Name>
+      <Abbreviation>Am3/s</Abbreviation>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>actual cubic foot per second</Name>
+      <Abbreviation>aft3/s</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>actual cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>actual cubic foot per second (customary)</Name>
+      <Abbreviation>acf/s</Abbreviation>
+      <RefUOM>actual cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic foot per day</Name>
+      <Abbreviation>MM aft3/d</Abbreviation>
+      <RefFactor>11.5740740740741</RefFactor>
+      <RefUOM>actual cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic foot per day (customary)</Name>
+      <Abbreviation>MM acf/d</Abbreviation>
+      <RefUOM>million actual cubic foot per day</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>million actual cubic meter per day</Name>
+      <Abbreviation>MMAm3/d</Abbreviation>
+      <RefFactor>11.5740740740741</RefFactor>
+      <RefUOM>actual cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand actual cubic foot per hour</Name>
+      <Abbreviation>k aft3/h</Abbreviation>
+      <RefFactor>0.277777777777778</RefFactor>
+      <RefUOM>actual cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand actual cubic foot per hour (customary)</Name>
+      <Abbreviation>k acf/h</Abbreviation>
+      <RefUOM>thousand actual cubic foot per hour</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand actual cubic meter per hour</Name>
+      <Abbreviation>k Am3/h</Abbreviation>
+      <RefFactor>0.277777777777778</RefFactor>
+      <RefUOM>actual cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Actual)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic meter per second</Name>
+      <Abbreviation>Nm3/s</Abbreviation>
+      <Class>Volume Flow Rate (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>million normal cubic meter per day</Name>
+      <Abbreviation>MNm3/d</Abbreviation>
+      <RefFactor>11.5740740740741</RefFactor>
+      <RefUOM>normal cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic foot per second</Name>
+      <Abbreviation>Nft3/s</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>normal cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic foot per second (customary)</Name>
+      <Abbreviation>Ncf/s</Abbreviation>
+      <RefUOM>normal cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>normal cubic meter per hour</Name>
+      <Abbreviation>Nm3/h</Abbreviation>
+      <RefFactor>3600</RefFactor>
+      <RefUOM>normal cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand normal cubic meter per hour</Name>
+      <Abbreviation>kNm3/h</Abbreviation>
+      <RefFactor>0.277777777777778</RefFactor>
+      <RefUOM>normal cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Normal)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic meter per second</Name>
+      <Abbreviation>sm3/s</Abbreviation>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic foot per second</Name>
+      <Abbreviation>sft3/s</Abbreviation>
+      <RefFactor>0.028316846592</RefFactor>
+      <RefUOM>standard cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>million standard cubic foot per day</Name>
+      <Abbreviation>MM sft3/d</Abbreviation>
+      <RefFactor>11.5740740740741</RefFactor>
+      <RefUOM>standard cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>million standard cubic foot per day (customary)</Name>
+      <Abbreviation>MM scf/d</Abbreviation>
+      <RefFactor>11.5740740740741</RefFactor>
+      <RefUOM>standard cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>million std cubic foot per day</Name>
+      <Abbreviation>Mscf/d</Abbreviation>
+      <RefUOM>million standard cubic foot per day</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic foot per second (customary)</Name>
+      <Abbreviation>scf/s</Abbreviation>
+      <RefUOM>standard cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>standard cubic meter per day</Name>
+      <Abbreviation>sm3/d</Abbreviation>
+      <RefFactor>1.1574E-05</RefFactor>
+      <RefUOM>standard cubic meter per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand standard cubic foot per hour</Name>
+      <Abbreviation>k sft3/h</Abbreviation>
+      <RefFactor>0.277777777777778</RefFactor>
+      <RefUOM>standard cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>thousand standard cubic foot per hour (customary)</Name>
+      <Abbreviation>k scf/h</Abbreviation>
+      <RefFactor>0.277777777777778</RefFactor>
+      <RefUOM>standard cubic foot per second</RefUOM>
+      <Class>Volume Flow Rate (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>joule per cubic meter</Name>
+      <Abbreviation>J/m3</Abbreviation>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per barrel</Name>
+      <Abbreviation>Btu/bbl</Abbreviation>
+      <RefFactor>6636.1016652167</RefFactor>
+      <RefUOM>joule per cubic meter</RefUOM>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per cubic foot</Name>
+      <Abbreviation>Btu/ft3</Abbreviation>
+      <RefFactor>37258.945807831</RefFactor>
+      <RefUOM>joule per cubic meter</RefUOM>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per cubic meter</Name>
+      <Abbreviation>Btu/m3</Abbreviation>
+      <RefFactor>1055.056</RefFactor>
+      <RefUOM>joule per cubic meter</RefUOM>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>BTU per Gal</Name>
+      <Abbreviation>BTU/gal</Abbreviation>
+      <RefFactor>42</RefFactor>
+      <RefUOM>British thermal unit per barrel</RefUOM>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>BTU per normal cubic meter</Name>
+      <Abbreviation>BTU/Nm3</Abbreviation>
+      <RefFactor>1055.056</RefFactor>
+      <RefUOM>joule per cubic meter</RefUOM>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>kcalorie per cubic meter</Name>
+      <Abbreviation>kcal/m3</Abbreviation>
+      <RefFactor>4186.8</RefFactor>
+      <RefUOM>joule per cubic meter</RefUOM>
+      <Class>Volumetric Energy</Class>
+    </UOM>
+    <UOM>
+      <Name>joule per standard cubic meter</Name>
+      <Abbreviation>J/sm3</Abbreviation>
+      <Class>Volumetric Energy (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per standard cubic foot</Name>
+      <Abbreviation>Btu/sft3</Abbreviation>
+      <RefFactor>37258.945807831</RefFactor>
+      <RefUOM>joule per standard cubic meter</RefUOM>
+      <Class>Volumetric Energy (Standard)</Class>
+    </UOM>
+    <UOM>
+      <Name>British thermal unit per standard cubic foot (customary)</Name>
+      <Abbreviation>Btu/scf</Abbreviation>
+      <RefFactor>37258.945807831</RefFactor>
+      <RefUOM>joule per standard cubic meter</RefUOM>
+      <Class>Volumetric Energy (Standard)</Class>
+    </UOM>
+  </UOMDatabase>
+  <AFDatabase>
+    <Name>AFPartnerCourseWeather</Name>
+    <AFElementTemplate>
+      <Name>Cities Template</Name>
+      <Type>None</Type>
+      <InstanceType>Element</InstanceType>
+      <AllowElementToExtend>false</AllowElementToExtend>
+      <AFAttributeTemplate>
+        <Name>Cloud Cover</Name>
+        <DefaultUOM>%</DefaultUOM>
+        <Type>Int32</Type>
+        <Value type="Int32">0</Value>
+        <DataReference>PI Point</DataReference>
+        <ConfigString>\\MARC-PI2014\%Element%_%Attribute%;UOM="%"</ConfigString>
+      </AFAttributeTemplate>
+      <AFAttributeTemplate>
+        <Name>Humidity</Name>
+        <DefaultUOM>%</DefaultUOM>
+        <Type>Double</Type>
+        <Value type="Double">0</Value>
+        <DataReference>PI Point</DataReference>
+        <ConfigString>\\MARC-PI2014\%Element%_%Attribute%;UOM="%"</ConfigString>
+      </AFAttributeTemplate>
+      <AFAttributeTemplate>
+        <Name>Pressure</Name>
+        <DefaultUOM>mbar</DefaultUOM>
+        <Type>Int32</Type>
+        <Value type="Int32">0</Value>
+        <DataReference>PI Point</DataReference>
+        <ConfigString>\\MARC-PI2014\%Element%_%Attribute%;UOM=mbar</ConfigString>
+      </AFAttributeTemplate>
+      <AFAttributeTemplate>
+        <Name>Temperature</Name>
+        <DefaultUOM>°C</DefaultUOM>
+        <Type>Int32</Type>
+        <Value type="Int32">0</Value>
+        <DataReference>PI Point</DataReference>
+        <ConfigString>\\MARC-PI2014\%Element%_%Attribute%;UOM=°C</ConfigString>
+      </AFAttributeTemplate>
+      <AFAttributeTemplate>
+        <Name>Visibility</Name>
+        <DefaultUOM>km</DefaultUOM>
+        <Type>Int32</Type>
+        <Value type="Int32">0</Value>
+        <DataReference>PI Point</DataReference>
+        <ConfigString>\\MARC-PI2014\%Element%_%Attribute%;UOM=km</ConfigString>
+      </AFAttributeTemplate>
+      <AFAttributeTemplate>
+        <Name>Wind Speed</Name>
+        <DefaultUOM>km/h</DefaultUOM>
+        <Type>Int32</Type>
+        <Value type="Int32">0</Value>
+        <DataReference>PI Point</DataReference>
+        <ConfigString>\\MARC-PI2014\%Element%_%Attribute%;UOM=km/h</ConfigString>
+      </AFAttributeTemplate>
+    </AFElementTemplate>
+    <AFElement>
+      <Name>Cities</Name>
+      <AFElement ReferenceType="Parent-Child">
+        <Name>Chicago</Name>
+        <Template>Cities Template</Template>
+        <AFAttribute>
+          <Name>Cloud Cover</Name>
+          <ConfigString>\\MARC-PI2014\Chicago_Cloud Cover;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Humidity</Name>
+          <ConfigString>\\MARC-PI2014\Chicago_Humidity;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Pressure</Name>
+          <ConfigString>\\MARC-PI2014\Chicago_Pressure;UOM=mbar</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Temperature</Name>
+          <ConfigString>\\MARC-PI2014\Chicago_Temperature;UOM=°C</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Visibility</Name>
+          <ConfigString>\\MARC-PI2014\Chicago_Visibility;UOM=km</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Wind Speed</Name>
+          <ConfigString>\\MARC-PI2014\Chicago_Wind Speed;UOM=km/h</ConfigString>
+        </AFAttribute>
+      </AFElement>
+      <AFElement ReferenceType="Parent-Child">
+        <Name>Los Angeles</Name>
+        <Template>Cities Template</Template>
+        <AFAttribute>
+          <Name>Cloud Cover</Name>
+          <ConfigString>\\MARC-PI2014\Los Angeles_Cloud Cover;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Humidity</Name>
+          <ConfigString>\\MARC-PI2014\Los Angeles_Humidity;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Pressure</Name>
+          <ConfigString>\\MARC-PI2014\Los Angeles_Pressure;UOM=mbar</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Temperature</Name>
+          <ConfigString>\\MARC-PI2014\Los Angeles_Temperature;UOM=°C</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Visibility</Name>
+          <ConfigString>\\MARC-PI2014\Los Angeles_Visibility;UOM=km</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Wind Speed</Name>
+          <ConfigString>\\MARC-PI2014\Los Angeles_Wind Speed;UOM=km/h</ConfigString>
+        </AFAttribute>
+      </AFElement>
+      <AFElement ReferenceType="Parent-Child">
+        <Name>New York</Name>
+        <Template>Cities Template</Template>
+        <AFAttribute>
+          <Name>Cloud Cover</Name>
+          <ConfigString>\\MARC-PI2014\New York_Cloud Cover;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Humidity</Name>
+          <ConfigString>\\MARC-PI2014\New York_Humidity;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Pressure</Name>
+          <ConfigString>\\MARC-PI2014\New York_Pressure;UOM=mbar</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Temperature</Name>
+          <ConfigString>\\MARC-PI2014\New York_Temperature;UOM=°C</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Visibility</Name>
+          <ConfigString>\\MARC-PI2014\New York_Visibility;UOM=km</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Wind Speed</Name>
+          <ConfigString>\\MARC-PI2014\New York_Wind Speed;UOM=km/h</ConfigString>
+        </AFAttribute>
+      </AFElement>
+      <AFElement ReferenceType="Parent-Child">
+        <Name>San Francisco</Name>
+        <Template>Cities Template</Template>
+        <AFAttribute>
+          <Name>Cloud Cover</Name>
+          <ConfigString>\\MARC-PI2014\San Francisco_Cloud Cover;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Humidity</Name>
+          <ConfigString>\\MARC-PI2014\San Francisco_Humidity;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Pressure</Name>
+          <ConfigString>\\MARC-PI2014\San Francisco_Pressure;UOM=mbar</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Temperature</Name>
+          <ConfigString>\\MARC-PI2014\San Francisco_Temperature;UOM=°C</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Visibility</Name>
+          <ConfigString>\\MARC-PI2014\San Francisco_Visibility;UOM=km</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Wind Speed</Name>
+          <ConfigString>\\MARC-PI2014\San Francisco_Wind Speed;UOM=km/h</ConfigString>
+        </AFAttribute>
+      </AFElement>
+      <AFElement ReferenceType="Parent-Child">
+        <Name>Washington</Name>
+        <Template>Cities Template</Template>
+        <AFAttribute>
+          <Name>Cloud Cover</Name>
+          <ConfigString>\\MARC-PI2014\Washington_Cloud Cover;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Humidity</Name>
+          <ConfigString>\\MARC-PI2014\Washington_Humidity;UOM="%"</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Pressure</Name>
+          <ConfigString>\\MARC-PI2014\Washington_Pressure;UOM=mbar</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Temperature</Name>
+          <ConfigString>\\MARC-PI2014\Washington_Temperature;UOM=°C</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Visibility</Name>
+          <ConfigString>\\MARC-PI2014\Washington_Visibility;UOM=km</ConfigString>
+        </AFAttribute>
+        <AFAttribute>
+          <Name>Wind Speed</Name>
+          <ConfigString>\\MARC-PI2014\Washington_Wind Speed;UOM=km/h</ConfigString>
+        </AFAttribute>
+      </AFElement>
+    </AFElement>
+  </AFDatabase>
+</AF>

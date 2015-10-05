@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Sending Value to the PI System through PI Web API</title>
+</head>
+<body>
+    <h1>Sending Value to the PI System through PI Web API</h1>
+    <p>Select the element and attribute that you want to send your value:</p>
+    <label for="city_name">Select city</label>
+    <select name="city_name" id="city_name" size="1"></select>
+    <label for="attribute_name">Select attribute:</label>
+    <select name="attribute_name" id="attribute_name" size="1"></select>
+    <label for="value">Value to send:</label>
+    <input type="text" name="value" id="value" value="" />
+    <br />
+    <input type="button" id="UpdateBtn" value="Send Value" onclick="SendValue()" />
+</body>
+</html>
+
+

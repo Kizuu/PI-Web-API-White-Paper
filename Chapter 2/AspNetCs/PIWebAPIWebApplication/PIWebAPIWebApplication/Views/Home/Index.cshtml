@@ -1,0 +1,43 @@
+﻿@model PIWebAPIWebApplication.Models.MainModel
+@{
+    Layout = null;
+    string showMessage = "true";
+    if (string.IsNullOrEmpty(Model.StatusMessage))
+    {
+        showMessage = "false";
+    }
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="~/Content/default.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="~/Scripts/script.js"></script>
+    <title>Sending Value to the PI System through PI Web API</title>
+</head>
+<body>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post, null))
+    {
+        <h1>Sending Value to the PI System through PI Web API</h1>
+        <p>Select the element and attribute that you want to send your value:</p>
+
+        @Html.LabelFor(m => m.SelectedCity)
+        @Html.DropDownListFor(m => m.SelectedCity, Model.CitiesNames)
+        @Html.LabelFor(m => m.SelectedAttribute)
+        @Html.DropDownListFor(m => m.SelectedAttribute, Model.AttributesNames)
+
+        @Html.LabelFor(m => m.Value)
+        @Html.TextBoxFor(m => m.Value)
+        <br />
+        <input type="submit" id="UpdateBtn" value="Send Value" />
+    }
+
+    <script>
+        if (@showMessage) {
+            alert('@Model.StatusMessage');
+        }
+    </script>
+</body>
+</html>
+
